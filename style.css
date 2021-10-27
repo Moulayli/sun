@@ -199,7 +199,7 @@ a.text-white:hover{
   /* activité */
 
 .center{
-  margin-left: 15%;
+  margin-left: 29%;
   margin-bottom: 2%;
 }
 h3 {
@@ -269,7 +269,7 @@ h3 {
     color: white;
 }
 #section1 h2 {
-    color: yellow;
+    color:rgb(255, 205, 41);
 }
 #section1 .drk {
     position: absolute;
@@ -290,6 +290,8 @@ h3 {
   #section2 .container {
     overflow: hidden;
     padding: 20px 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
     position: relative;
     margin: 0 auto;
     width: 600px;
@@ -357,7 +359,8 @@ h3 {
   #section3 {
     
   }
-  #section3 h2 {
+  #section3 {
+    margin-top:20px;
     padding: 80px;
     background: rgb(29,79,145);
     background-repeat: no-repeat;
@@ -366,6 +369,9 @@ h3 {
     min-height: 100px;
     text-align: center;
     color: white;
+  }
+  #section h2 {
+    margin: 100px;
   }
   #section3 img {
       border-radius: 150%;
@@ -396,4 +402,7 @@ form{
 .tel{
   background-color: rgb(29, 79, 145);
   color: white;
+}
+.section-activite > h3{
+  margin: 150px;
 }
